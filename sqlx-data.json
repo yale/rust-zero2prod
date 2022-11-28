@@ -14,29 +14,5 @@
       }
     },
     "query": "INSERT INTO subscriptions(id, email, name, subscribed_at) VALUES ($1, $2, $3, $4);"
-  },
-  "ba20effdca00d762d9b1be53b32d1d7adcb286c69f1c4413f892ca04f4957bdc": {
-    "describe": {
-      "columns": [
-        {
-          "name": "email",
-          "ordinal": 0,
-          "type_info": "Text"
-        },
-        {
-          "name": "name",
-          "ordinal": 1,
-          "type_info": "Text"
-        }
-      ],
-      "nullable": [
-        false,
-        false
-      ],
-      "parameters": {
-        "Left": []
-      }
-    },
-    "query": "SELECT email, name FROM subscriptions;"
   }
 }
